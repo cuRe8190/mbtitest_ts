@@ -4,6 +4,7 @@ import "./App.css";
 import MainPage from "./pages/MainPage";
 import QuestionPage from "./pages/QuestionPage";
 import ResultPage from "./pages/ResultPage";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App(): React.ReactElement {
   return (
