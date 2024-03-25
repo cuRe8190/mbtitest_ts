@@ -14,6 +14,7 @@ const Wrapper = styled.div`
   background: #c8dfff;
   font-family: "Chosun";
 `;
+
 const Header = styled.h1`
   color: cornflowerblue;
   font-size: 3rem;
@@ -22,6 +23,7 @@ const Header = styled.h1`
   align-items: center;
   font-family: "Bagel";
 `;
+
 const ContentsWrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -34,6 +36,7 @@ const Title = styled.div`
   margin-top: 1rem;
   font-size: 1rem;
 `;
+
 const LogoImage = styled.div`
   display: flex;
   flex-direction: column;
