@@ -17,7 +17,7 @@ import RussianBlue from '../../assets/cat/russianblue.jpg';
 import Scottishfold from '../../assets/cat/scottishfold.jpg';
 import Siamese from '../../assets/cat/siamese.jpg';
 import Sphinx from '../../assets/cat/sphinx.jpg';
-import Tonkinese from '../../assets/cat/tonkinese.jpg';
+import Tonkinese from '../../assets/cat/tonkinese.png';
 import Turkishangora from '../../assets/cat/turkishangora.jpg';
 
 

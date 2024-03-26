@@ -4,50 +4,7 @@ import CatImage from "../assets/kitten.jpg";
 import Button from "react-bootstrap/Button";
 import { useNavigate } from "react-router-dom";
 import { Image } from "react-bootstrap";
-
-const Wrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 100vh;
-  background: #c8dfff;
-  font-family: "Chosun";
-`;
-
-const Header = styled.h1`
-  color: cornflowerblue;
-  font-size: 3rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: "Bagel";
-`;
-
-const ContentsWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1rem;
-`;
-
-const Title = styled.div`
-  margin-top: 1rem;
-  font-size: 1rem;
-`;
-
-const LogoImage = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 200px;
-  height: 200px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-`;
-
-const Desc = styled.div``;
+import Header from "../components/Header";
 
 export default function MainPage(): React.ReactElement {
   const navigate = useNavigate();
@@ -57,7 +14,7 @@ export default function MainPage(): React.ReactElement {
 
   return (
     <Wrapper>
-      <Header>{"Let's find my cat"}</Header>
+      <Header type="" questionNo={0} />
       <ContentsWrapper>
         <Title>나와 맞는 고앵이를 찾아보자!</Title>
         <LogoImage>
@@ -86,3 +43,36 @@ export default function MainPage(): React.ReactElement {
     </Wrapper>
   );
 }
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: #c8dfff;
+  font-family: "Chosun";
+`;
+
+const ContentsWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+
+const Title = styled.div`
+  margin-top: 1rem;
+  font-size: 1rem;
+`;
+
+const LogoImage = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+`;
+
+const Desc = styled.div``;
